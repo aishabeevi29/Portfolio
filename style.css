@@ -1,0 +1,41 @@
+body {
+    font-family: cursive, sans-serif;
+    text-align: center;
+    background-color: rgb(182, 22, 22);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background:rgb(241, 238, 238);
+    color: rgb(134, 7, 45);
+    padding: 20px;
+}
+
+nav {
+    background:rgb(255, 64, 0);
+    padding: 10px;
+}
+
+nav a {
+    color: pink;
+    text-decoration: rgb(197, 12, 191);
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background: #d70f0f;
+}
+
+.profile-pic {
+    
+        width: 100px;  /* Set width */
+        height: 100px; /* Set height equal to width */
+        border-radius: 50%; /* Makes the image a perfect circle */
+        object-fit: cover; /* Ensures the image fills the circular area */
+        display: block;
+        margin: 10px auto; /* Centers the image */
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow */
+    }
+    
